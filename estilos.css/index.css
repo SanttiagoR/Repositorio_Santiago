@@ -1,0 +1,243 @@
+
+/* HELPERS */
+.flex-row{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction:column;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+/* FIN HELPERS */
+
+
+/* ESTILOS INDEX */
+
+*,
+* ::before,
+* ::after { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+/* GRID */
+
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "imagen1 imagen1"
+    "div div"
+    "imagen2 texto"
+    "footer footer"
+  
+    ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+header{
+    grid-area: header;
+}
+
+picture#imagenPrincipal{
+    grid-area: imagen1;
+}
+
+div#divTexto{
+    grid-area: div;
+}
+
+img#imagenSecundaria{
+    grid-area: imagen2;
+}
+
+p#textoPrincipal{
+    grid-area: texto;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+
+
+/* HEADER */
+
+header{
+    background-color: #95AC9D ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+header .navbar{
+  min-height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid black;
+}
+
+header .menu{
+    flex-basis: 70%;
+    justify-content: space-between;
+    list-style:none;
+    background-color: black;
+}
+
+ header .titulo-menu{
+     flex-basis: 30%;
+ }
+
+.titulo-menu{   
+    color: #CFF1DF ;
+    font-size: 70px;
+    font-style: italic;
+}
+
+.menu .menu-item .menu-link{
+    font-size:1.2em;
+    padding: 1rem;
+}
+
+nav{
+   padding: 0 2rem;
+}
+
+body{
+    min-height: 100vh;
+}
+
+p#textoPrincipal{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.article-tittle{ 
+    background-color: #CFF1DF;
+    font-size:35px;
+    font-style: oblique;
+    border:solid 4px black;
+    padding-left: 777px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+
+section .footer .footer-image {
+    display: inline-block;
+}
+
+.article-image-up{
+width:100%;
+height: 800px;
+
+}
+
+/* FIN DE HEADER */
+
+
+/* SERVICIOS */
+
+/* GRILLA SERVICIOS */
+#gridServicios{
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "tittle tittle"
+        "texto texto "
+        "image image"
+        "image image"
+        "footer footer"
+        ;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+    
+header{
+    grid-area: header;
+}
+
+.section-service{
+    grid-area: tittle;
+}
+
+#descripcionServicios{
+    grid-area: texto ;
+}
+
+#imagenService{
+    grid-area: image;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+#descripcionServicios{
+    justify-content: center;
+}
+
+
+
+div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* FIN GRILLA SERVICIOS */
+
+section .section-service-tittle{
+    background-color:#CFF1DF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 800px;
+}
+
+
+
+/* FIN SERVICIOS */
+
+
+/* ESTILOS NUESTRO STAFF */
+section .section-nuestroStaff-tittle{
+    background-color:#CFF1DF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 800px;
+}
+
+.nuestroStaff{
+    display:flex;
+}
+
+/* ESTILOS GALERIA */
+section .section-galery-tittle{
+    background-color:#CFF1DF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 800px;
+}
+
+/* ESTILOS CONTACTANOS  */
+section .section-contact-tittle{
+    background-color:#CFF1DF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 800px;
+}
+
+/* FOOTER */
+
+
+
