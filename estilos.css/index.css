@@ -28,7 +28,7 @@
 
 /* GRID */
 
-#grilla{
+/* #grilla{
     display: grid;
     grid-template-areas: 
     "header header"
@@ -64,9 +64,9 @@ p#textoPrincipal{
 
 .footer{
     grid-area: footer;
-}
+} */
 
-a {
+/* a {
     height: 50px;
     transition: height 2s;
 }
@@ -74,13 +74,13 @@ a {
 a:hover {
     height: 100px;
     background-color:#95AC9D
-}
+} */
 
 /* HEADER */
 
-header{
+/* header{
     background-color: #95AC9D ;
-}
+} */
 
 a{
     text-decoration: none;
@@ -131,7 +131,7 @@ p#textoPrincipal{
 }
 
 
-.article-tittle{ 
+/* .article-tittle{ 
     background-color: #CFF1DF;
     font-size:35px;
     font-style: oblique;
@@ -140,7 +140,7 @@ p#textoPrincipal{
     padding-top: 15px;
     padding-bottom: 15px;
     
-}
+} */
 
 
 section .footer .footer-image {
@@ -159,7 +159,7 @@ height: 800px;
 /* SERVICIOS */
 
 /* GRILLA SERVICIOS */
-#gridServicios{
+/* #gridServicios{
         display: grid;
         grid-template-areas: 
         "header header"
@@ -195,11 +195,11 @@ header{
 
 #descripcionServicios{
     justify-content: center;
-}
+} */
 
 
 
-div img{
+/* div img{
     max-width: 100%;
     max-height: 100%;
 }
@@ -210,7 +210,7 @@ section .section-service-tittle{
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 800px;
-}
+} */
 
 
 
